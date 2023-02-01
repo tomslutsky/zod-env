@@ -4,7 +4,7 @@
   "description": "Typesafe way to read env variables",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tomslutsky/zod-env",
+    "url": "https://github.com/tomslutsky/zod-env"
   },
   "main": "dist/index.js",
   "module": "dist/index.mjs",

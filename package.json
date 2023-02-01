@@ -1,0 +1,36 @@
+{
+  "name": "zod-env",
+  "version": "0.1.0",
+  "description": "Typesafe way to read env variables",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomslutsky/zod-env",
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "zod",
+    "typescript"
+  ],
+  "author": "Tom Slutsky <tom.slutsky@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.3"
+  },
+  "peerDependencies": {
+    "zod": "^3.20.2"
+  }
+}
